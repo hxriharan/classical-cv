@@ -43,7 +43,7 @@ The end goal/future idea is to make a UI where one can upload images and click o
 - Morphological operations: erosion, dilation, opening, closing
 - Connected components
 - Watershed segmentation
-- Graph-based segmentation (Felzenszwalb)
+- Graph-based segmentation (Felzenszwalb Segmentation)
 - Region growing & splitting/merging
 - Superpixels (SLIC)
 
