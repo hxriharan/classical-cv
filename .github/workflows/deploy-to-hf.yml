@@ -30,10 +30,10 @@ jobs:
         
     - name: Deploy to Hugging Face Spaces
       if: github.ref == 'refs/heads/main'
-      uses: huggingface/huggingface_hub@v0.19.4
+      uses: huggingface/huggingface_hub@v0.20.3
       with:
         repo-type: space
-        repo-id: ${{ secrets.HF_USERNAME }}/classical-cv-algorithms
+        repo-id: ${{ secrets.HF_USERNAME }}/classical-cv
         token: ${{ secrets.HF_TOKEN }}
         space-sdk: gradio
         space-hardware: cpu-basic
