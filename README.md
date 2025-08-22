@@ -43,7 +43,7 @@ This project serves as both a learning resource and a practical toolkit for clas
    python gradio_app.py
    ```
 
-The application will be available at `http://localhost:7860`
+The application will be available at the URL shown in the terminal output (typically `http://localhost:7860` or similar)
 
 ## Features
 
@@ -175,7 +175,7 @@ classical-cv/
 ### Web Interface
 
 1. Start the application: `python gradio_app.py`
-2. Open your browser to `http://localhost:7860`
+2. Open your browser to the URL shown in the terminal output
 3. Upload an image using the interface
 4. Select an algorithm category and specific algorithm
 5. Click "Process Image" to see the results
@@ -249,9 +249,9 @@ If you use this repository in your research or projects, please cite:
 ```bibtex
 @misc{classical_cv_opensource,
   title={Classical Computer Vision Open Source},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/yourusername/Classical-Computer-Vision-Opensource}
+  author={Hariharan Sureshkumar},
+  year={2025},
+  url={https://github.com/hxriharan/classical-cv}
 }
 ```
 
